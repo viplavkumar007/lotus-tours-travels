@@ -8,9 +8,9 @@ export default function GroupTravel() {
     <section id="group-travel" className="section-pad bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionTitle
-          eyebrow="Group Solutions"
-          title="Tempo Travellers,"
-          titleAccent="Coaches & Buses"
+          eyebrow="Group Transportation"
+          title="Our"
+          titleAccent="Fleet"
           subtitle="Spacious, comfortable, and well-maintained group transportation for every group size and occasion."
         />
         <StaggerContainer className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">

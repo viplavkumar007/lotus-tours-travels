@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useRef, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { brand, nav, contact } from '../../data/siteContent'
 import { useWindowScroll } from '../../hooks/useWindowScroll'
@@ -11,7 +11,21 @@ export default function Navbar() {
   const scrollY = useWindowScroll()
   const active = useScrollSpy(sectionIds)
   const [menuOpen, setMenuOpen] = useState(false)
+  const pendingSection = useRef(null)
   const scrolled = scrollY > 40
+
+  const handleMobileNavigation = (id) => {
+    pendingSection.current = id
+    setMenuOpen(false)
+  }
+
+  const handleMenuExitComplete = () => {
+    if (!pendingSection.current) return
+
+    scrollToSection(pendingSection.current)
+    window.history.replaceState(null, '', `#${pendingSection.current}`)
+    pendingSection.current = null
+  }
 
   return (
     <>
@@ -128,7 +142,7 @@ export default function Navbar() {
         </div>
 
         {/* Mobile Menu */}
-        <AnimatePresence>
+        <AnimatePresence onExitComplete={handleMenuExitComplete}>
           {menuOpen && (
             <motion.div
               initial={{ opacity: 0, height: 0 }}
@@ -143,7 +157,7 @@ export default function Navbar() {
                   return (
                     <button
                       key={href}
-                      onClick={() => { scrollToSection(id); setMenuOpen(false) }}
+                      onClick={() => handleMobileNavigation(id)}
                       className="block w-full text-left px-4 py-2.5 text-sm font-medium text-gray-700 hover:bg-navy-50 hover:text-navy-700 rounded-lg transition-colors"
                     >
                       {label}

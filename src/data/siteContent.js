@@ -171,7 +171,7 @@ export const luxuryCars = [
       'https://images.unsplash.com/photo-1523983254932-c7e8571c28f3?auto=format&fit=crop&w=600&q=80',
   },
   {
-    name: 'BMW 5 Series GT',
+    name: 'BMW GT 5 Series',
     category: 'Luxury Grand Tourer',
     features: ['Grand Touring', 'Spacious Cabin', 'Comfort Suspension', 'Sport Package'],
     image:
@@ -185,7 +185,7 @@ export const luxuryCars = [
       'https://images.unsplash.com/photo-1494905998402-395d579af36f?auto=format&fit=crop&w=600&q=80',
   },
   {
-    name: 'Toyota Fortuner Legender',
+    name: 'Fortuner Legender',
     category: 'Premium SUV',
     features: ['7-Seater', 'Terrain Mode', 'JBL Audio', 'ADAS Safety Suite'],
     image:
@@ -199,21 +199,21 @@ export const luxuryCars = [
       'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=600&q=80',
   },
   {
-    name: 'Toyota Innova Crysta',
+    name: 'Innova Crysta',
     category: 'Premium MPV',
     features: ['8-Seater', 'Captain Seats', 'Diesel Power', 'Ambient Cabin'],
     image:
       'https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=600&q=80',
   },
   {
-    name: 'Maruti Suzuki Dzire',
+    name: 'Dzire',
     category: 'Comfort Sedan',
     features: ['Fuel Efficient', 'Comfortable Ride', 'Well Maintained', 'AC Cabin'],
     image:
       'https://images.unsplash.com/photo-1502161254066-6c74afbf07aa?auto=format&fit=crop&w=600&q=80',
   },
   {
-    name: 'Maruti Suzuki Ertiga',
+    name: 'Ertiga',
     category: 'Family MPV',
     features: ['7-Seater', 'Smart Hybrid', 'Spacious Boot', 'Family Comfort'],
     image:
@@ -223,15 +223,7 @@ export const luxuryCars = [
 
 export const groupTravel = [
   {
-    name: '17 Seater Tempo Traveller',
-    category: 'Group Transportation',
-    features: ['Pushback Seats', 'AC Cabin', 'Music System', 'Luggage Space'],
-    image:
-      'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=600&q=80',
-    highlight: null,
-  },
-  {
-    name: '20 Seater Tempo Traveller',
+    name: 'Tempo Traveller 20 Seater',
     category: 'Medium Group Travel',
     features: ['Reclining Seats', 'Air Conditioning', 'Charging Points', 'GPS Tracked'],
     image:
@@ -239,7 +231,7 @@ export const groupTravel = [
     highlight: null,
   },
   {
-    name: '26 Seater Tempo Traveller',
+    name: 'Tempo Traveller 26 Seater',
     category: 'Large Group Travel',
     features: ['AC Coach', 'Ample Luggage', 'Experienced Driver', 'Comfortable Journey'],
     image:
@@ -247,7 +239,23 @@ export const groupTravel = [
     highlight: null,
   },
   {
-    name: '13 Seater Maharaja Tempo',
+    name: 'Tempo Traveller 17 Seater',
+    category: 'Group Transportation',
+    features: ['Pushback Seats', 'AC Cabin', 'Music System', 'Luggage Space'],
+    image:
+      'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=600&q=80',
+    highlight: null,
+  },
+  {
+    name: 'Force Urbania 17 Seater',
+    category: 'Premium Group Coach',
+    features: ['Luxury Pushback', 'Individual AC Vents', 'Reading Lights', 'Premium Cabin'],
+    image:
+      'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=600&q=80',
+    highlight: 'Luxury Pushback Seating',
+  },
+  {
+    name: '13 Seater Maharaja Tempo Traveller',
     category: 'Ultra Luxury Group',
     features: ['Maharaja Seats', 'LCD Screens', 'Refrigerator', 'Premium Upholstery'],
     image:
@@ -255,12 +263,12 @@ export const groupTravel = [
     highlight: 'Maharaja Interior',
   },
   {
-    name: '17 Seater Force Urbania',
-    category: 'Premium Group Coach',
-    features: ['Luxury Pushback', 'Individual AC Vents', 'Reading Lights', 'Premium Cabin'],
+    name: '49 Seater AC Pack Glass Coach',
+    category: 'Luxury Long-Distance Coach',
+    features: ['Pushback Seats', 'Full Air Conditioning', 'Spacious Luggage', 'Glass Coach Design'],
     image:
-      'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=600&q=80',
-    highlight: 'Luxury Pushback Seating',
+      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80',
+    highlight: 'Glass Coach Experience',
   },
   {
     name: '35 Seater Mini Bus Coach',
@@ -269,14 +277,6 @@ export const groupTravel = [
     image:
       'https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&w=600&q=80',
     highlight: null,
-  },
-  {
-    name: '49 Seater AC Pushback Coach',
-    category: 'Luxury Long-Distance Coach',
-    features: ['Pushback Seats', 'Full Air Conditioning', 'Spacious Luggage', 'Glass Coach Design'],
-    image:
-      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80',
-    highlight: 'Glass Coach Experience',
   },
 ]
 
@@ -441,8 +441,8 @@ export const gallery = {
 export const nav = [
   { label: 'Home', href: '#home' },
   { label: 'About', href: '#about' },
-  { label: 'Luxury Cars', href: '#luxury-cars' },
-  { label: 'Group Travel', href: '#group-travel' },
+  { label: 'Luxury Vehicles', href: '#luxury-cars' },
+  { label: 'Fleet', href: '#group-travel' },
   { label: 'Services', href: '#services' },
   { label: 'Gallery', href: '#gallery' },
   { label: 'Testimonials', href: '#testimonials' },

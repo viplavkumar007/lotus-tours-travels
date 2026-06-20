@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import SectionTitle from '../components/ui/SectionTitle'
 import Toast from '../components/ui/Toast'
-import { contact } from '../data/siteContent'
+import { contact, luxuryCars, groupTravel } from '../data/siteContent'
 import { waLink } from '../utils/whatsappLink'
 
 export default function Contact() {
@@ -73,22 +73,11 @@ export default function Contact() {
                 <label className="text-xs font-semibold text-navy-700 mb-1.5 block" htmlFor="vehicle">Vehicle Preference</label>
                 <select id="vehicle" name="vehicle" value={form.vehicle} onChange={handleChange} className={fieldClass('vehicle') + ' cursor-pointer'}>
                   <option value="">Select a vehicle (optional)</option>
-                  <optgroup label="Luxury Cars">
-                    <option>Audi A6</option><option>Audi A4</option>
-                    <option>Mercedes CLA</option><option>Mercedes C-Class</option><option>Mercedes E-Class</option>
-                    <option>BMW 5 Series</option><option>BMW Open Roof</option>
-                    <option>Jaguar XF</option><option>Jaguar XJL</option>
-                    <option>Toyota Fortuner Legender</option><option>Vintage Royal Car</option>
-                    <option>Toyota Innova Crysta</option>
+                  <optgroup label="Luxury Vehicles">
+                    {luxuryCars.map(({ name }) => <option key={name}>{name}</option>)}
                   </optgroup>
-                  <optgroup label="Group Travel">
-                    <option>17 Seater Tempo Traveller</option>
-                    <option>20 Seater Tempo Traveller</option>
-                    <option>26 Seater Tempo Traveller</option>
-                    <option>13 Seater Maharaja Tempo</option>
-                    <option>17 Seater Force Urbania</option>
-                    <option>35 Seater Mini Bus Coach</option>
-                    <option>49 Seater AC Pushback Coach</option>
+                  <optgroup label="Fleet">
+                    {groupTravel.map(({ name }) => <option key={name}>{name}</option>)}
                   </optgroup>
                 </select>
               </div>
