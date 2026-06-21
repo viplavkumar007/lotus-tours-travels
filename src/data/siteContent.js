@@ -118,164 +118,144 @@ export const luxuryCars = [
     name: 'Audi A6',
     category: 'Luxury Executive Sedan',
     features: ['Leather Interior', 'Climate Control', 'Professional Driver', 'Premium Sound'],
-    image:
-      'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=600&q=80',
+    image: '/fleet/audi-a6.jpg',
   },
   {
     name: 'Audi A4',
     category: 'Premium Business Sedan',
     features: ['Sport Seats', 'Panoramic Roof', 'Advanced Safety', 'In-car Entertainment'],
-    image:
-      'https://images.unsplash.com/photo-1615906655593-ad0386982a0f?auto=format&fit=crop&w=600&q=80',
+    image: '/fleet/audi-a4.jpg',
   },
   {
     name: 'Mercedes CLA',
     category: 'Luxury Coupé Sedan',
     features: ['Sporty Design', 'Premium Cabin', 'MBUX System', 'Chauffeur Driven'],
-    image:
-      'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=600&q=80',
+    image: '/fleet/mercedes-cla.jpg',
   },
   {
     name: 'Mercedes C-Class',
     category: 'Executive Luxury Sedan',
     features: ['Massage Seats', 'Ambient Lighting', 'Widescreen Display', 'Air Suspension'],
-    image:
-      'https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=600&q=80',
+    image: '/fleet/mercedes-c-class.jpg',
   },
   {
     name: 'Mercedes E-Class',
     category: 'Premium Chauffeur Sedan',
     features: ['Executive Rear', 'Burmester Audio', 'Fragrance System', 'Night Package'],
-    image:
-      'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=600&q=80',
+    image: '/fleet/mercedes-e-class.jpg',
   },
   {
     name: 'Jaguar XF',
     category: 'Luxury Performance Sedan',
     features: ['Dynamic Handling', 'Meridian Sound', 'Touch Pro Duo', 'Leather Alcantara'],
-    image:
-      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80',
+    image: '/fleet/jaguar-xf.jpg',
   },
   {
     name: 'Jaguar XJL',
     category: 'Ultra Luxury Sedan',
     features: ['Extended Wheelbase', 'Rear Entertainment', 'Mood Lighting', 'Folding Tables'],
-    image:
-      'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=600&q=80',
+    image: '/fleet/jaguar-xjl.jpg',
   },
   {
     name: 'BMW 5 Series',
     category: 'Executive Luxury Sedan',
     features: ['Gesture Control', 'Harman Kardon', 'Driving Assistant', 'Panoramic Glass'],
-    image:
-      'https://images.unsplash.com/photo-1523983254932-c7e8571c28f3?auto=format&fit=crop&w=600&q=80',
+    image: '/fleet/bmw-5-series.jpg',
   },
   {
     name: 'BMW GT 5 Series',
     category: 'Luxury Grand Tourer',
     features: ['Grand Touring', 'Spacious Cabin', 'Comfort Suspension', 'Sport Package'],
-    image:
-      'https://images.unsplash.com/photo-1617469767053-d3b523a0b982?auto=format&fit=crop&w=600&q=80',
+    image: '/fleet/bmw-5-series-gt.jpg',
   },
   {
     name: 'BMW Open Roof',
     category: 'Luxury Convertible Experience',
     features: ['Retractable Roof', 'Wind Deflector', 'Sport Exhaust', 'Premium Upholstery'],
-    image:
-      'https://images.unsplash.com/photo-1494905998402-395d579af36f?auto=format&fit=crop&w=600&q=80',
+    image: '/fleet/bmw-convertible.jpg',
   },
   {
     name: 'Fortuner Legender',
     category: 'Premium SUV',
     features: ['7-Seater', 'Terrain Mode', 'JBL Audio', 'ADAS Safety Suite'],
-    image:
-      'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80',
+    image: '/fleet/fortuner-legender.jpg',
   },
   {
     name: 'Vintage Royal Car',
     category: 'Wedding Special Royal Vehicle',
     features: ['Classic Elegance', 'Floral Decoration', 'Royal Entry', 'Photo Moments'],
-    image:
-      'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=600&q=80',
+    image: '/fleet/vintage-royal.jpg',
   },
   {
     name: 'Innova Crysta',
     category: 'Premium MPV',
     features: ['8-Seater', 'Captain Seats', 'Diesel Power', 'Ambient Cabin'],
-    image:
-      'https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=600&q=80',
-  },
-  {
-    name: 'Dzire',
-    category: 'Comfort Sedan',
-    features: ['Fuel Efficient', 'Comfortable Ride', 'Well Maintained', 'AC Cabin'],
-    image:
-      'https://images.unsplash.com/photo-1502161254066-6c74afbf07aa?auto=format&fit=crop&w=600&q=80',
-  },
-  {
-    name: 'Ertiga',
-    category: 'Family MPV',
-    features: ['7-Seater', 'Smart Hybrid', 'Spacious Boot', 'Family Comfort'],
-    image:
-      'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80',
+    image: '/fleet/innova-crysta.webp',
   },
 ]
 
 export const groupTravel = [
   {
+    name: 'Dzire',
+    category: 'Comfort Sedan',
+    features: ['Fuel Efficient', 'Comfortable Ride', 'Well Maintained', 'AC Cabin'],
+    image: '/fleet/dzire.jpg',
+    highlight: '2022–23 Model',
+  },
+  {
+    name: 'Ertiga',
+    category: 'Family MPV',
+    features: ['7-Seater', 'Smart Hybrid', 'Spacious Boot', 'Family Comfort'],
+    image: '/fleet/ertiga.jpg',
+    highlight: '2022–23 Model',
+  },
+  {
     name: 'Tempo Traveller 20 Seater',
     category: 'Medium Group Travel',
     features: ['Reclining Seats', 'Air Conditioning', 'Charging Points', 'GPS Tracked'],
-    image:
-      'https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&w=600&q=80',
+    image: '/fleet/tempo-20.jpg',
     highlight: null,
   },
   {
     name: 'Tempo Traveller 26 Seater',
     category: 'Large Group Travel',
     features: ['AC Coach', 'Ample Luggage', 'Experienced Driver', 'Comfortable Journey'],
-    image:
-      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80',
+    image: '/fleet/tempo-26.jpg',
     highlight: null,
   },
   {
     name: 'Tempo Traveller 17 Seater',
     category: 'Group Transportation',
     features: ['Pushback Seats', 'AC Cabin', 'Music System', 'Luggage Space'],
-    image:
-      'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=600&q=80',
+    image: '/fleet/tempo-17.webp',
     highlight: null,
   },
   {
     name: 'Force Urbania 17 Seater',
     category: 'Premium Group Coach',
     features: ['Luxury Pushback', 'Individual AC Vents', 'Reading Lights', 'Premium Cabin'],
-    image:
-      'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=600&q=80',
+    image: '/fleet/force-urbania.png',
     highlight: 'Luxury Pushback Seating',
   },
   {
     name: '13 Seater Maharaja Tempo Traveller',
     category: 'Ultra Luxury Group',
     features: ['Maharaja Seats', 'LCD Screens', 'Refrigerator', 'Premium Upholstery'],
-    image:
-      'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=600&q=80',
+    image: '/fleet/maharaja-tempo.webp',
     highlight: 'Maharaja Interior',
   },
   {
     name: '49 Seater AC Pack Glass Coach',
     category: 'Luxury Long-Distance Coach',
     features: ['Pushback Seats', 'Full Air Conditioning', 'Spacious Luggage', 'Glass Coach Design'],
-    image:
-      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80',
+    image: '/fleet/coach-49.webp',
     highlight: 'Glass Coach Experience',
   },
   {
     name: '35 Seater Mini Bus Coach',
     category: 'Group Coach',
     features: ['Comfortable Seats', 'Air Conditioning', 'Luggage Storage', 'Professional Driver'],
-    image:
-      'https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&w=600&q=80',
+    image: '/fleet/coach-35.jpg',
     highlight: null,
   },
 ]
@@ -417,24 +397,31 @@ export const gallery = {
     'Mercedes Collection',
     'Audi Collection',
     'Jaguar Collection',
+    'Fleet Cars',
     'Tempo Travellers',
     'Urbania',
     'Coaches',
-    'Customer Moments',
   ],
   images: [
-    { src: 'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=600&q=80', category: 'Wedding Cars', alt: 'Vintage wedding car' },
-    { src: 'https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=600&q=80', category: 'Mercedes Collection', alt: 'Mercedes C-Class luxury sedan' },
-    { src: 'https://images.unsplash.com/photo-1523983254932-c7e8571c28f3?auto=format&fit=crop&w=600&q=80', category: 'BMW Collection', alt: 'BMW 5 Series executive sedan' },
-    { src: 'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=600&q=80', category: 'Audi Collection', alt: 'Audi A6 luxury executive sedan' },
-    { src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80', category: 'Jaguar Collection', alt: 'Jaguar XF luxury performance sedan' },
-    { src: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=600&q=80', category: 'Tempo Travellers', alt: 'Tempo traveller for group tours' },
-    { src: 'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=600&q=80', category: 'Mercedes Collection', alt: 'Mercedes CLA luxury coupe' },
-    { src: 'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=600&q=80', category: 'Jaguar Collection', alt: 'Jaguar XJL ultra luxury sedan' },
-    { src: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80', category: 'Luxury Sedans', alt: 'Premium SUV Toyota Fortuner' },
-    { src: 'https://images.unsplash.com/photo-1494905998402-395d579af36f?auto=format&fit=crop&w=600&q=80', category: 'BMW Collection', alt: 'BMW convertible open roof' },
-    { src: 'https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&w=600&q=80', category: 'Coaches', alt: '49 Seater AC pushback coach' },
-    { src: 'https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=600&q=80', category: 'Luxury Sedans', alt: 'Toyota Innova Crysta premium MPV' },
+    { src: '/fleet/indian-wedding-car.jpg', category: 'Wedding Cars', alt: 'Indian wedding sedan decorated with flowers and hanging garlands' },
+    { src: '/fleet/mercedes-c-class.jpg', category: 'Mercedes Collection', alt: 'Mercedes C-Class luxury sedan' },
+    { src: '/fleet/mercedes-cla.jpg', category: 'Mercedes Collection', alt: 'Mercedes CLA luxury coupe sedan' },
+    { src: '/fleet/bmw-5-series.jpg', category: 'BMW Collection', alt: 'BMW 5 Series executive sedan' },
+    { src: '/fleet/bmw-convertible.jpg', category: 'BMW Collection', alt: 'BMW open-roof convertible' },
+    { src: '/fleet/audi-a6.jpg', category: 'Audi Collection', alt: 'Audi A6 luxury executive sedan' },
+    { src: '/fleet/audi-a4.jpg', category: 'Audi Collection', alt: '2022 Audi A4 premium sedan' },
+    { src: '/fleet/jaguar-xf.jpg', category: 'Jaguar Collection', alt: 'Jaguar XF performance sedan' },
+    { src: '/fleet/jaguar-xjl.jpg', category: 'Jaguar Collection', alt: 'Jaguar XJL long-wheelbase sedan' },
+    { src: '/fleet/mercedes-e-class.jpg', category: 'Luxury Sedans', alt: 'Mercedes E-Class luxury sedan' },
+    { src: '/fleet/innova-crysta.webp', category: 'Fleet Cars', alt: 'Toyota Innova Crysta' },
+    { src: '/fleet/dzire.jpg', category: 'Fleet Cars', alt: '2022–23 generation Maruti Suzuki Dzire' },
+    { src: '/fleet/ertiga.jpg', category: 'Fleet Cars', alt: '2022 Maruti Suzuki Ertiga' },
+    { src: '/fleet/tempo-20.jpg', category: 'Tempo Travellers', alt: '20-seater Force Tempo Traveller' },
+    { src: '/fleet/tempo-26.jpg', category: 'Tempo Travellers', alt: '26-seater Force Tempo Traveller' },
+    { src: '/fleet/maharaja-tempo.webp', category: 'Tempo Travellers', alt: 'Maharaja luxury Tempo Traveller' },
+    { src: '/fleet/force-urbania.png', category: 'Urbania', alt: 'Force Urbania passenger van' },
+    { src: '/fleet/coach-49.webp', category: 'Coaches', alt: '49-seater Ashok Leyland AC coach' },
+    { src: '/fleet/coach-35.jpg', category: 'Coaches', alt: '35-seater SML mini bus coach' },
   ],
 }
 
