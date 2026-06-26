@@ -40,9 +40,9 @@ export default function Hero() {
         </motion.div>
 
         {/* Headline */}
-        <motion.h1 {...fadeUp(0.25)} className="font-playfair font-bold text-white leading-tight mb-4">
-          <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl">{hero.headline}</span>
-          <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl gold-text mt-1">{hero.headlineAccent}</span>
+        <motion.h1 {...fadeUp(0.25)} className="font-playfair font-bold text-white leading-[1.12] mb-4">
+          <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl py-1">{hero.headline}</span>
+          <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl gold-text py-1">{hero.headlineAccent}</span>
         </motion.h1>
 
         {/* Tagline */}

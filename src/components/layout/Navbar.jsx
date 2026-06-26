@@ -69,8 +69,8 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-18">
             {/* Logo */}
-            <button onClick={() => scrollToSection('home')} className="flex items-center gap-3 flex-shrink-0">
-              <img src={brand.logo} alt={brand.name} className="h-10 w-auto" />
+            <button onClick={() => scrollToSection('home')} className="flex items-center gap-2 flex-shrink-0">
+              <img src={brand.logo} alt={brand.name} className="h-14 lg:h-16 w-auto object-contain" />
               <div className="hidden sm:block leading-tight">
                 <div className="font-playfair font-bold text-navy-800 text-base">Lotus Tours</div>
                 <div className="text-xs text-gold-600 font-medium tracking-wide">&amp; Travels</div>

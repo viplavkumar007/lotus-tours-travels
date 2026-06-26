@@ -3,7 +3,6 @@ import { about } from '../data/siteContent'
 import ScrollReveal from '../components/motion/ScrollReveal'
 import SectionTitle from '../components/ui/SectionTitle'
 import { StaggerContainer, StaggerItem } from '../components/motion/StaggerChildren'
-import LazyImage from '../components/ui/LazyImage'
 
 export default function About() {
   return (
@@ -15,8 +14,13 @@ export default function About() {
           {/* Image side */}
           <ScrollReveal>
             <div className="relative">
-              <div className="rounded-2xl overflow-hidden shadow-card-hover">
-                <LazyImage src={about.image} alt="Lotus Tours premium fleet" className="h-80 md:h-96 lg:h-[480px]" />
+              <div className="h-80 md:h-96 lg:h-[480px] rounded-2xl bg-white shadow-card-hover flex items-center justify-center p-4 md:p-6">
+                <img
+                  src="/logo.png"
+                  alt="Lotus Tours & Travels"
+                  className="max-h-full max-w-full object-contain"
+                  loading="lazy"
+                />
               </div>
               {/* Gold accent border */}
               <div className="absolute -bottom-4 -right-4 w-full h-full rounded-2xl border-2 border-gold-500/30 -z-10" />

@@ -227,7 +227,7 @@ export const groupTravel = [
     name: 'Tempo Traveller 17 Seater',
     category: 'Group Transportation',
     features: ['Pushback Seats', 'AC Cabin', 'Music System', 'Luggage Space'],
-    image: '/fleet/tempo-17.webp',
+    image: '/fleet/tempo-17.jpg',
     highlight: null,
   },
   {
@@ -248,7 +248,7 @@ export const groupTravel = [
     name: '49 Seater AC Pack Glass Coach',
     category: 'Luxury Long-Distance Coach',
     features: ['Pushback Seats', 'Full Air Conditioning', 'Spacious Luggage', 'Glass Coach Design'],
-    image: '/fleet/coach-49.webp',
+    image: '/fleet/coach-49.jpg',
     highlight: 'Glass Coach Experience',
   },
   {
@@ -420,7 +420,7 @@ export const gallery = {
     { src: '/fleet/tempo-26.jpg', category: 'Tempo Travellers', alt: '26-seater Force Tempo Traveller' },
     { src: '/fleet/maharaja-tempo.webp', category: 'Tempo Travellers', alt: 'Maharaja luxury Tempo Traveller' },
     { src: '/fleet/force-urbania.png', category: 'Urbania', alt: 'Force Urbania passenger van' },
-    { src: '/fleet/coach-49.webp', category: 'Coaches', alt: '49-seater Ashok Leyland AC coach' },
+    { src: '/fleet/coach-49.jpg', category: 'Coaches', alt: '49-seater Ashok Leyland AC coach' },
     { src: '/fleet/coach-35.jpg', category: 'Coaches', alt: '35-seater SML mini bus coach' },
   ],
 }
